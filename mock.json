@@ -1,0 +1,375 @@
+{
+  "dashboardStats": [
+    {
+      "label": "AFFECTED AREA",
+      "value": "72%",
+      "description": "FLOOD IMPACT ZONE",
+      "intent": "negative",
+      "icon": "waterDrop",
+      "direction": "up"
+    },
+    {
+      "label": "DAMAGE LEVEL",
+      "value": "SEVERE",
+      "description": "CRITICAL SITUATION",
+      "intent": "negative",
+      "icon": "fire",
+      "direction": "down"
+    },
+    {
+      "label": "ESTIMATED LOSS",
+      "value": "₹12.4 Cr",
+      "description": "INFRASTRUCTURE DAMAGE",
+      "intent": "negative",
+      "icon": "alertTriangle",
+      "tag": "Priority High 🚨"
+    }
+  ],
+  "chartData": {
+    "week": [
+      {
+        "date": "Delhi",
+        "affected": 72,
+        "rescued": 45,
+        "pending": 27
+      },
+      {
+        "date": "Raipur",
+        "affected": 54,
+        "rescued": 32,
+        "pending": 22
+      },
+      {
+        "date": "Mumbai",
+        "affected": 23,
+        "rescued": 18,
+        "pending": 5
+      },
+      {
+        "date": "Lucknow",
+        "affected": 68,
+        "rescued": 38,
+        "pending": 30
+      },
+      {
+        "date": "Patna",
+        "affected": 61,
+        "rescued": 35,
+        "pending": 26
+      },
+      {
+        "date": "Surat",
+        "affected": 31,
+        "rescued": 24,
+        "pending": 7
+      }
+    ],
+    "month": [
+      {
+        "date": "Week 1",
+        "affected": 50,
+        "rescued": 25,
+        "pending": 25
+      },
+      {
+        "date": "Week 2",
+        "affected": 65,
+        "rescued": 38,
+        "pending": 27
+      },
+      {
+        "date": "Week 3",
+        "affected": 72,
+        "rescued": 45,
+        "pending": 27
+      },
+      {
+        "date": "Week 4",
+        "affected": 68,
+        "rescued": 42,
+        "pending": 26
+      }
+    ],
+    "year": [
+      {
+        "date": "Jan",
+        "affected": 30,
+        "rescued": 18,
+        "pending": 12
+      },
+      {
+        "date": "Feb",
+        "affected": 25,
+        "rescued": 15,
+        "pending": 10
+      },
+      {
+        "date": "Mar",
+        "affected": 45,
+        "rescued": 28,
+        "pending": 17
+      },
+      {
+        "date": "Apr",
+        "affected": 55,
+        "rescued": 33,
+        "pending": 22
+      },
+      {
+        "date": "May",
+        "affected": 72,
+        "rescued": 45,
+        "pending": 27
+      }
+    ]
+  },
+  "rebelsRanking": [
+    {
+      "id": 1,
+      "name": "RAVI KUMAR",
+      "handle": "@LUCKNOW_RESCUE",
+      "streak": "5 RESCUES TODAY 🚁",
+      "points": 148,
+      "avatar": "/avatars/user_krimson.png",
+      "featured": true,
+      "subtitle": "5 RESCUES TODAY 🚁"
+    },
+    {
+      "id": 2,
+      "name": "PRIYA PATEL",
+      "handle": "@PATNA_RELIEF",
+      "streak": "",
+      "points": 129,
+      "avatar": "/avatars/user_mati.png"
+    },
+    {
+      "id": 3,
+      "name": "ARJUN MEHTA",
+      "handle": "@SURAT_OPS",
+      "streak": "",
+      "points": 108,
+      "avatar": "/avatars/user_pek.png"
+    },
+    {
+      "id": 4,
+      "name": "NEHA SHARMA",
+      "handle": "@DELHI_COORD",
+      "streak": "",
+      "points": 64,
+      "avatar": "/avatars/user_joyboy.png"
+    }
+  ],
+  "securityStatus": [
+    {
+      "title": "RESCUE UNITS",
+      "value": "24/24",
+      "status": "[DEPLOYED...]",
+      "variant": "success"
+    },
+    {
+      "title": "SOS ALERTS",
+      "value": "847",
+      "status": "[PROCESSING]",
+      "variant": "warning"
+    },
+    {
+      "title": "MEDICAL RESPONSE",
+      "value": "92%",
+      "status": "[ACTIVE]",
+      "variant": "success"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "title": "RESCUE COMPLETED",
+      "message": "12 people rescued from Block A near the highway successfully.",
+      "timestamp": "2024-07-10T13:39:00Z",
+      "type": "success",
+      "read": false,
+      "priority": "high"
+    },
+    {
+      "id": "notif-2",
+      "title": "CRITICAL SOS ALERT",
+      "message": "High priority SOS signal detected in Sector 21. 5 units dispatched.",
+      "timestamp": "2024-07-10T13:35:00Z",
+      "type": "warning",
+      "read": false,
+      "priority": "high"
+    },
+    {
+      "id": "notif-3",
+      "title": "EVACUATION UPDATE",
+      "message": "200 people safely evacuated from the northern flood zone.",
+      "timestamp": "2024-07-10T12:15:00Z",
+      "type": "info",
+      "read": true,
+      "priority": "medium"
+    },
+    {
+      "id": "notif-4",
+      "title": "WEATHER ALERT",
+      "message": "82% chance of worsening flood intensity within next 24 hours.",
+      "timestamp": "2024-07-10T11:45:00Z",
+      "type": "warning",
+      "read": true,
+      "priority": "high"
+    }
+  ],
+  "widgetData": {
+    "location": "Disaster Command Center",
+    "timezone": "IST",
+    "temperature": "28°C",
+    "weather": "Heavy Rain",
+    "date": "Wednesday, July 10th, 2025"
+  },
+  "rescueUnits": [
+    {
+      "id": "unit-001",
+      "name": "Bravo Team - Helicopter 1",
+      "type": "Helicopter",
+      "status": "Deployed",
+      "location": "Delhi North Sector",
+      "personnel": 8,
+      "equipment": ["Ladder", "Life Jacket", "Radio"],
+      "lastUpdate": "2024-07-10T13:35:00Z",
+      "rescuesCompleted": 45
+    },
+    {
+      "id": "unit-002",
+      "name": "Delta Squad - Boat Team 2",
+      "type": "Boat",
+      "status": "Deployed",
+      "location": "Raipur Canal Zone",
+      "personnel": 5,
+      "equipment": ["Rope", "Buoy", "First Aid"],
+      "lastUpdate": "2024-07-10T13:32:00Z",
+      "rescuesCompleted": 32
+    },
+    {
+      "id": "unit-003",
+      "name": "Alpha Response - Vehicle",
+      "type": "Vehicle",
+      "status": "En Route",
+      "location": "Lucknow Bypass",
+      "personnel": 4,
+      "equipment": ["Stretcher", "Water Pump", "Generator"],
+      "lastUpdate": "2024-07-10T13:28:00Z",
+      "rescuesCompleted": 18
+    },
+    {
+      "id": "unit-004",
+      "name": "Medical Support - Ambulance",
+      "type": "Ambulance",
+      "status": "Deployed",
+      "location": "Central Hospital Station",
+      "personnel": 6,
+      "equipment": ["Defibrillator", "Oxygen", "Medication"],
+      "lastUpdate": "2024-07-10T13:25:00Z",
+      "rescuesCompleted": 62
+    }
+  ],
+  "sosAlerts": [
+    {
+      "id": "sos-001",
+      "location": "Sector 21, Block C",
+      "people": 12,
+      "severity": "Critical",
+      "status": "In Progress",
+      "arrivedUnit": "Bravo Team",
+      "timeReceived": "2024-07-10T13:35:00Z",
+      "timeDispatched": "2024-07-10T13:36:00Z"
+    },
+    {
+      "id": "sos-002",
+      "location": "Patna Railway Station",
+      "people": 28,
+      "severity": "High",
+      "status": "Pending",
+      "arrivedUnit": null,
+      "timeReceived": "2024-07-10T13:40:00Z",
+      "timeDispatched": null
+    },
+    {
+      "id": "sos-003",
+      "location": "Surat Commercial Zone",
+      "people": 5,
+      "severity": "Medium",
+      "status": "In Progress",
+      "arrivedUnit": "Delta Squad",
+      "timeReceived": "2024-07-10T13:15:00Z",
+      "timeDispatched": "2024-07-10T13:17:00Z"
+    }
+  ],
+  "communicationLogs": [
+    {
+      "id": "msg-001",
+      "sender": "Ravi Kumar",
+      "role": "Commander",
+      "message": "All units report status: 24/24 active and ready for deployment",
+      "timestamp": "2024-07-10T13:45:00Z",
+      "priority": "high",
+      "type": "broadcast"
+    },
+    {
+      "id": "msg-002",
+      "sender": "Priya Patel",
+      "role": "Medical Officer",
+      "message": "Requesting additional medical supplies to Central Hospital",
+      "timestamp": "2024-07-10T13:40:00Z",
+      "priority": "high",
+      "type": "request"
+    },
+    {
+      "id": "msg-003",
+      "sender": "Arjun Mehta",
+      "role": "Operations",
+      "message": "SOS Alert acknowledged. Dispatching Bravo Team to Sector 21",
+      "timestamp": "2024-07-10T13:36:00Z",
+      "priority": "critical",
+      "type": "acknowledgement"
+    },
+    {
+      "id": "msg-004",
+      "sender": "Neha Sharma",
+      "role": "Coordinator",
+      "message": "Weather update: Storm intensity increasing. Recommend caution",
+      "timestamp": "2024-07-10T13:30:00Z",
+      "priority": "medium",
+      "type": "alert"
+    }
+  ],
+  "refugeeCamps": [
+    {
+      "id": "camp-001",
+      "name": "Delhi Central Relief Camp",
+      "location": "Delhi Stadium Complex",
+      "capacity": 5000,
+      "currentOccupancy": 3400,
+      "status": "Active",
+      "facilities": ["Medical", "Food", "Water", "Shelter"],
+      "healthCondition": "Stable"
+    },
+    {
+      "id": "camp-002",
+      "name": "Raipur Temporary Settlement",
+      "location": "Raipur Community Ground",
+      "capacity": 2000,
+      "currentOccupancy": 1850,
+      "status": "Active",
+      "facilities": ["Medical", "Food", "Water"],
+      "healthCondition": "Needs monitoring"
+    },
+    {
+      "id": "camp-003",
+      "name": "Lucknow Emergency Shelter",
+      "location": "Lucknow Municipal Hall",
+      "capacity": 1500,
+      "currentOccupancy": 890,
+      "status": "Active",
+      "facilities": ["Medical", "Food", "Water", "Education"],
+      "healthCondition": "Good"
+    }
+  ]
+}
